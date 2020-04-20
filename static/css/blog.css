@@ -19,6 +19,7 @@
 #blog img{
     width: 100%;
     max-width: 280px;
+    cursor: pointer;
 }
 
 @media(min-width:1024px){

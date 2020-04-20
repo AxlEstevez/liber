@@ -12,6 +12,7 @@
     position: absolute;
     top: 25%;
     left: 50%;
+    height: auto;
     transform: translateX(-50%) translateX(-50%);
     color: rgb(255, 255, 255);
 }
@@ -22,9 +23,10 @@
     font-size: 15px;
 }
 
-#banner p{
+#banner h5{
     position: relative;
     left: 170px;
+    
 }
 
 #banner a{
@@ -47,15 +49,17 @@
 
 @media(min-width:1024px){
     .contenido{
-        margin-top: -15px;
-        margin-left: 450px;
+        margin-top: 50px;
+        margin-left: 550px;
         width: 1000px;
     }
+    
     #banner a{
         font-size: 18px;
         width: 100px;
         border: 3px solid #fff;
     }
+
 }
 
 @media(min-width:480px){
@@ -88,6 +92,7 @@
 }
 
 @media(min-width:320px){
+    
     #banner p{
         font-size: xx-small;
     }
