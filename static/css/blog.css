@@ -1,29 +1,30 @@
-#blog h3,h4{
-    text-align: center;
+#blog h3,
+h4 {
+  text-align: center;
 }
 
-#blog .articulos{
-    display: flex;
-    justify-content: center;
-    /*
+#blog .articulos {
+  display: flex;
+  justify-content: center;
+  /*
     Si un elemento ya no cabe en linea
     baja
     */
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-#blog article{
-    margin: 15px;
+#blog article {
+  margin: 15px;
 }
 
-#blog img{
-    width: 100%;
-    max-width: 280px;
-    cursor: pointer;
+#blog img {
+  width: 100%;
+  max-width: 280px;
+  cursor: pointer;
 }
 
-@media(min-width:1024px){
-    .contend-footer{
-        width: 1000px;
-    }
+@media (min-width: 1024px) {
+  .contend-footer {
+    width: 1000px;
+  }
 }
