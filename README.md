@@ -1,2 +1,2 @@
 # Liber.
-¡ Te damos la bienvenida a **Liber**, tu Biblioteca de libros personal.
+¡ Te damos la bienvenida a **Liber**, una herramienra para gestionar tu biblioteca de libros personal.
