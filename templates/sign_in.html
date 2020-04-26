@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/static/js/main.js"></script>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/fontello.css">
+    <link rel="shortcut icon" href="/static/images/logo.png" type="image/x-icon">
+    <title>Iniciar Sesi&oacute;n</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <img src="/static/images/logo.1.png" class="icon" alt="liber">
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+
+            <nav class="menu">
+                <a href="/templates/home.html">inicio</a>
+                <a href="/templates/sign_in.html">iniciar sesi&oacute;n</a>
+                <a href="/templates/sign_up.html">Registro</a>
+                <a href="/templates/about.html">Acerca de</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="formulario">
+            <form action="#" method="post">
+                <h1>Iniciar Sesi&oacute;n</h1>
+                <input type="text" id="usuario" placeholder="&#128100; Usuario"><br>
+                <input type="password" id="password" placeholder="&#128273; Contraseña">
+                <label for="show-hide" class="icon-eye" id="eye" onclick="showHide();"></label>
+                <br>
+                <a href="#" id="rpasword">
+                    ¿Olvidaste tu contrase&ntilde;a?
+                </a>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contend-footer">
+            <p class="copy">Liber &copy; 2020</p>
+            <div class="sociales">
+                <a class="icon-facebook-official" href="https://www.facebook.com/AxlEstevezN" target="blank"></a>
+                <a class="icon-instagram" href="#"></a>
+                <a class="icon-twitter" href="#"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
