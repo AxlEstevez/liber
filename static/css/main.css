@@ -4,6 +4,7 @@
 @import url(blog.css);
 @import url(form.css);
 @import url(about.css);
+@import url(contacto.css);
 
 * {
   margin: 0;
