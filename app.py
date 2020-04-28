@@ -3,7 +3,6 @@
 # Autor: Axl Estevez, axlestevez@hotmail.com
 
 from flask import Flask, render_template, redirect, request
-from flaskext.mysql import MySQL
 from modulos.conexion import Connection
 
 conexion = Connection("root","","127.0.0.1","Biblioteca")
@@ -20,5 +19,21 @@ app = Flask(__name__)
 def index():
     return render_template('home.html')
 
+@app.route('/login')
+def login():
+	return render_template('sign_in.html')
+	
+@app.route('/signUp')
+def singUp():
+	return render_template('sign_up.html')
+
+@app.route('/about')
+def about():
+	return render_template('about.html')
+
+@app.route('/contact')
+def contac():
+	return render_template('contact.html')
+	
 if __name__ == "__main__":
     app.run(port=8000,debug=True)
