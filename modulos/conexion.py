@@ -61,7 +61,6 @@ class Connection(object):
         try:
             self.__cursor.execute(sql)
             password = self.__cursor.fetchone()
-
-            print("Pass: ",password)
+            return password
         except Exception as e:
             raise
