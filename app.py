@@ -19,5 +19,21 @@ app = Flask(__name__)
 def index():
     return render_template('home.html')
 
+@app.route('/login')
+def login():
+    return render_template('sign_in.html')
+
+@app.route('/signUp')
+def signUp():
+    return render_template('sign_up.html')
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
 if __name__ == "__main__":
     app.run(port=8000,debug=True)
